@@ -14,6 +14,7 @@ body {
 header {
   background-color: white;
   padding: 10px 25px;
+  margin-bottom: 25px;
 }
 
 header h1 {
@@ -24,4 +25,47 @@ header h1 {
 
 header img {
   vertical-align: middle;
+}
+/* ============ main ================================== */
+.container-large {
+  max-width: 1100px;
+  background-color: white;
+  margin: auto;
+}
+
+.container-button {
+  border-radius: 5px 5px 0 0;
+  padding: 15px 55px 10px;
+}
+/* ================buttons della section-1 nella main ==========*/
+
+button {
+  all: unset;
+  /* ho resettato i valori default dei buttons
+  i valori unset saranno overriden dai selettori più "precisi"*/
+}
+.container-button button {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.add-task {
+  background-color: #45abea;
+  color: white;
+  border: 1px solid #45abea;
+}
+
+.add-section {
+  background-color: white;
+  color: rgb(155, 153, 153);
+  border: 1px solid rgb(155, 153, 153);
+}
+/*  */
+.container-button button:hover {
+  opacity: 0.6;
+}
+.container-button button:active {
+  border: 1px solid black;
 }
