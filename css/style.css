@@ -153,3 +153,11 @@ h3 {
 #lime {
   background-color: #b0c926;
 }
+
+/* ========= cazzeggio con JS ============ */
+p {
+  font-size: large;
+  color: red;
+  text-align: center;
+  background-color: rgba(219, 255, 12, 0.842);
+}

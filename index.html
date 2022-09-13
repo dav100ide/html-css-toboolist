@@ -20,10 +20,13 @@
     <main>
       <!-- sezione-1 with two buttons -->
       <section class="container-large container-button">
-        <button class="add-task">Add Task</button>
-        <button class="add-section">Add Section</button>
+        <button class="add-task" onclick="nonCapace()">Add Task</button>
+        <button class="add-section" onclick="togli()">Add Section</button>
       </section>
       <!-- /sezione-1 with two buttons -->
+      <!-- funzione JS, se clicchi button add-task compare
+            il seguente p -->
+      <p id="non-capace"></p>
       <!-- sezione-2 todo list-->
       <section class="container-large container-list">
         <!-- ============NEW TASK=================== -->
@@ -91,5 +94,6 @@
       </section>
       <!-- /sezione-2 todo list-->
     </main>
+    <script src="cazzeggio.js"></script>
   </body>
 </html>
