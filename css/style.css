@@ -72,6 +72,11 @@ button {
 }
 
 /* =================== sezione-2 ========================== */
+.container-list {
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 20px;
+}
+
 h3 {
   font-size: 30px;
   margin-bottom: 15px;
@@ -139,4 +144,12 @@ h3 {
 
 #orange {
   background-color: #f29e33;
+}
+
+#pink {
+  background-color: #d863a1;
+}
+
+#lime {
+  background-color: #b0c926;
 }
